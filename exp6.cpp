@@ -46,7 +46,6 @@ void generateSubkeys(const string& key, string& K1, string& K2) {
 int main() {
     string key;
     
-    // Input 10-bit binary key
     cout << "Enter a 10-bit binary key: ";
     cin >> key;
 
@@ -54,6 +53,14 @@ int main() {
     if (key.length() != 10) {
         cout << "Error: Key must be exactly 10 bits long." << endl;
         return 1;
+    }
+
+    // Validate binary format
+    for (char c : key) {
+        if (c != '0' && c != '1') {
+            cout << "Error: Key must contain only 0s and 1s." << endl;
+            return 1;
+        }
     }
 
     // Variables to hold the subkeys
