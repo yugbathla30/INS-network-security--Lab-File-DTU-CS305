@@ -9,7 +9,6 @@ A comprehensive collection of cryptographic algorithms and security protocols im
 - [Compilation & Execution](#compilation--execution)
 - [Detailed Algorithm Descriptions](#detailed-algorithm-descriptions)
 - [Usage Examples](#usage-examples)
-- [Contributing](#contributing)
 
 ---
 
@@ -662,55 +661,17 @@ After completing these experiments, you should be able to:
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! Areas for improvement:
 
-- 🐛 Bug fixes
-- ⚡ Performance optimizations
-- 📝 Documentation enhancements
-- 🔐 Additional algorithms (AES, SHA-256, ECC)
-- 🧪 Unit tests
-- 🎨 Code refactoring
 
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -am 'Add new feature'`)
-4. Push to branch (`git push origin feature/improvement`)
-5. Create Pull Request
-
----
-
-## 📄 License
-
-This project is for educational purposes. Feel free to use and modify for learning.
-
----
 
 ## 👨‍💻 Author
 
 Information Security Laboratory  
+Yug bathla
 Academic Year: 2024-2025
 
----
 
-## 📞 Support
-
-For questions or issues:
-- 📧 Create an issue in the repository
-- 💬 Discussion forum (if available)
-- 📚 Refer to the experiment manual
-
----
-
-## 🏆 Acknowledgments
-
-- Faculty of Computer Science Department
-- Cryptography course instructors
-- Open-source cryptography community
-
----
 
 **Happy Learning! 🎓🔐**
 
